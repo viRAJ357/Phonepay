@@ -38,7 +38,10 @@ env.bak/
 venv.bak/
 
 # Project specific
-models/*.joblib
+# models/*.joblib # Un-comment if you want to exclude large model files
+!models/le_state.joblib
+!models/le_type.joblib
+!models/rf_model.joblib
 !models/metadata.joblib
-phonepe_pulse.db
+!phonepe_pulse.db
 # data/ # Un-comment if raw data is too large for GitHub
