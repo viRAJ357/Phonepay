@@ -1,7 +1,7 @@
-pandas
-streamlit
-plotly
-joblib
-scikit-learn
-altair
-narwhals
+pandas==2.3.3
+streamlit==1.53.1
+plotly==6.5.2
+joblib==1.5.3
+scikit-learn==1.8.0
+altair==5.5.0
+narwhals==1.25.0
