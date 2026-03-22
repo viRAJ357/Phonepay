@@ -20,6 +20,13 @@ st.markdown("""
         padding: 15px;
         border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        color: #0b0e14;
+    }
+    [data-testid="stMetricValue"] {
+        color: #0b0e14 !important;
+    }
+    [data-testid="stMetricLabel"] {
+        color: #555555 !important;
     }
     .stSidebar {
         background-color: #0b0e14;
